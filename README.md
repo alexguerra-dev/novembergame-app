@@ -66,3 +66,23 @@ I am going to be learning and using things. If You make a list of these things i
 I currently like the gradient that was created in the boiler plate in Tailwind.
 
 Should I use a `main` tag when I am working with pages?
+
+Use git flow.
+
+```bash
+brew install git-flow-avh
+```
+
+I just started setting up vercel.
+
+Make a die roller.
+
+Make a die component.
+
+Think about how the game is going to be played.
+
+- How many players?
+- Is the device going to be passed around?
+- Have fun
+
+Setup git flow
