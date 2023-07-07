@@ -1,4 +1,5 @@
 import Image from 'next/image'
+
 import Die from '../../components/Die' // import the Die component
 import Thought from '../../components/Thought'
 import Task from '../../components/Task'
@@ -6,6 +7,25 @@ import Task from '../../components/Task'
 export default function Notes() {
     return (
         <div className="mt-5">
+            <p>Write more notes.</p>
+            <h2>Things I would like to do with VSCode</h2>
+            <ul>
+                <li>Make a super clean and simple view for coding.</li>
+                <li>Learn to use git inside the app.</li>
+                <li>
+                    Get some automation going. (I don;t think I have ever done
+                    that).
+                </li>
+                <p>
+                    I think I am making some progress making things look a
+                    little cleaner.
+                </p>
+                <p>
+                    "Errando disces faciens" This translates to "By making
+                    mistakes, you will learn." I think that is a good motto for
+                    this project.
+                </p>
+            </ul>
             <p>This is where I am to write notes.</p>
             <p>
                 I find that when I come back to a project after a long time it
@@ -88,6 +108,8 @@ export default function Notes() {
                 <li>When you click a button randomly change that number</li>
                 <li>Instead of showing the number show an image.</li>
             </ul>
+            https://danielkummer.github.io/git-flow-cheatsheet/
+            <p>Introduce Teresa to relative line numbers.</p>
         </div>
     )
 }

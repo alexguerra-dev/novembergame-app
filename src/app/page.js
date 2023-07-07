@@ -9,7 +9,7 @@ export default function Home() {
                 Feel free to look around the page. I am looking for job
                 opportunities so please feel free to contact me.
             </p>
-            <div className="w-3/4 bg-gray-700 flex content-between ">
+            <div className="w-3/4 bg-gray-700 flex ">
                 <Link href="/history">
                     <p className="p-4 bg-red-400 m-5 rounded shadow-lg shadow-gray-800">
                         History
