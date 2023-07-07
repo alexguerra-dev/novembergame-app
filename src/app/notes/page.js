@@ -77,6 +77,7 @@ export default function Notes() {
             <p>I want to make my coding experience fun.</p>
             <Task>Make the task component</Task>
             <Image src="/dummy_600x400.png" width={600} height={400} />
+            <p>I was able to add an image</p>
         </div>
     )
 }
