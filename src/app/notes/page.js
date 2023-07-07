@@ -3,9 +3,8 @@ import Thought from '../../components/Thought'
 
 export default function Notes() {
     return (
-        <>
-            <h1 className="text-3xl">Notes</h1>
-            <p>Notes</p>
+        <div className="text-white">
+            <h1 className="text-3xl font-serif font-light">Notes</h1>
             <p>This is where I am to write notes.</p>
             <p>
                 I find that when I come back to a project after a long time it
@@ -17,7 +16,7 @@ export default function Notes() {
             <p>
                 Oh, I remember now. I was going to make a list of useful
                 components for this live development style. I want a component
-                for different fleating things.
+                for different fleeting things.
             </p>
             <ul>
                 <li>Currently listing to</li>
@@ -25,11 +24,12 @@ export default function Notes() {
                 <li>Goal</li>
                 <li>Rule</li>
             </ul>
-            <Thought title="The first thought"></Thought>
-            <p>
-                Currently there is nothing I can change about the content of
-                that thought.
-            </p>
+            <Thought title="The first thought">
+                <p>
+                    Currently there is nothing I can change about the content of
+                    that thought.
+                </p>
+            </Thought>
             <Thought title="The second thought">
                 I think that I can pass the content of this tag into the thought
                 component. That is a good thing. Now, when I have a thought I
@@ -44,6 +44,35 @@ export default function Notes() {
                 when the are in a row.
             </Thought>
             <Die /> {/* use the Die component */}
-        </>
+            <p>
+                Not everything is a thought. I think that might actually be the
+                case. There is a difference between a thought and an idea.
+                Maybe, there are three. Thoughts, ideas, and... Dang, I forgot.
+                That might actually be the thing I was forgetting. That was a
+                sentence that made no sense. It is pretty late and I should
+                probably go to bed. I think I found a good stopping place. I
+                pushed it to github and I am waiting to see it on
+            </p>
+            <a href="https://develop.novembergame.com/">
+                https://develop.novembergame.com/
+            </a>
+            <p>
+                Using the p tag does seem to give me kind of a linear view of
+                the progression of thoughts and notes. The more you add to the
+                record the longer the document is. You are moving down through
+                the passage of time. How is that different from scrolling into
+                the most current time? If there is a difference does it have any
+                implications in the advancement of notes or journalizing? This
+                is something that I am going to have to think about. I think
+            </p>
+            <p>Make a component for sitting down to work.</p>
+            <p>July 7, 2023</p>
+            <p>
+                I have a keyboard maestro shortcut for inserting the date. This
+                is is going to be useful in writing notes about when I come back
+                to the project.
+            </p>
+            <p>I want to make my coding experience fun.</p>
+        </div>
     )
 }

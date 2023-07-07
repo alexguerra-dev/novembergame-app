@@ -1,13 +1,8 @@
 export default function Thought(props) {
     return (
-        <div>
-            <h1 className="text-3xl">Thought</h1>
-            <h2>{props.title}</h2>
+        <div className="bg-slate-300 my-4 px-11 w-2/3 rounded-xl">
+            <h2 className="text-center text-3xl">{props.title}</h2>
             <p>{props.children}</p>
-            <p>
-                Thought... This is the content of the thought. It should be
-                passed through the body of the thought.
-            </p>
         </div>
     )
 }
