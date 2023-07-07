@@ -3,22 +3,36 @@ import Link from 'next/link'
 export default function Home() {
     return (
         <main>
-            <h1>Home</h1>
+            <p className="text-white text-4xl text-center">
+                Feel free to look around the page. I am looking for job
+                opportunities so please feel free to contact me.
+            </p>
+            <div className="w-3/4 bg-gray-700 flex content-between ">
+                <Link href="/history">
+                    <p className="p-4 bg-red-400 m-5 rounded shadow-lg shadow-gray-800">
+                        History
+                    </p>
+                </Link>
+                <Link href="/about">
+                    <p className="p-4 bg-blue-400 text-red-600">About</p>
+                </Link>
 
-            <Link href="/history">
-                <p className="p-4">History</p>
-            </Link>
-
-            <Link href="/about" className="">
-                <p className="p-4 bg-blue-400 text-red-600 w-7">About</p>
-            </Link>
-
-            <Link href="/games">Game</Link>
-
-            <Link href="/notes">Notes</Link>
-            <Link href="/rules">Rules</Link>
-            <Link href="/resume">Resume</Link>
-
+                <Link href="/games">
+                    <p className="p-4 bg-lime-400">Game</p>
+                </Link>
+                <Link href="/notes">
+                    <p className="p-4 bg-cyan-400">Notes</p>
+                </Link>
+                <Link href="/rules">
+                    <p className="p-4 bg-pink-400">Rules</p>
+                </Link>
+                <Link href="/resume">
+                    <p className="p-4 bg-orange-400">Resume</p>
+                </Link>
+            </div>
+            <div className="m-5 bg-gray-400">
+                <p>Here are some dice to play with</p>
+            </div>
             <p>
                 What is the best way to style a React component? I feel like
                 there might be multiple diffentt ways to try and style them. I
@@ -28,33 +42,27 @@ export default function Home() {
                 style the link. Then I need the custome link tag wrapping a
                 native tag that is styled.
             </p>
-
             <p>
                 I made a link from the homepage to the history page. I should be
                 able to click back again. That should be the next thing that I
                 add.
             </p>
-
             <p>
                 I am not sure why but I still keep going back to thinking about
-                how to style custome react components. It seems like I might
-                have to wrap everything in divs.
+                how to style custom react components. It seems like I might have
+                to wrap everything in divs.
             </p>
-
             <p>
                 Here is an idea. I should make a thought component that takes as
                 the inside of the tag the thought and as a parameter it takes a
                 title and a rating. That is a simple way for me to review what I
                 have learned in React.
             </p>
-
             <p>Question: Would it be a good idea to install Faker?</p>
-
-            <p>Remember to keep reading the docs.</p>
-
-            <Link href="/rules" className="text-3xl bg-green-500 rounded-md">
-                Rules
-            </Link>
+            <p>Remember to keep reading the docs.</p>!
+            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                Tailwind Snippets
+            </button>
         </main>
     )
 }

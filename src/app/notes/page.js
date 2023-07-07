@@ -5,8 +5,7 @@ import Task from '../../components/Task'
 
 export default function Notes() {
     return (
-        <div className="text-white">
-            <h1 className="text-3xl font-serif font-light">Notes</h1>
+        <div className="mt-5">
             <p>This is where I am to write notes.</p>
             <p>
                 I find that when I come back to a project after a long time it
@@ -78,6 +77,17 @@ export default function Notes() {
             <Task>Make the task component</Task>
             <Image src="/dummy_600x400.png" width={600} height={400} />
             <p>I was able to add an image</p>
+            <p>
+                What color should my background be? I kind of think it should be
+                a cool gradient or some kind of texture pattern.
+            </p>
+            {/* Make list of steps to make a die component. */}
+            <ul>
+                <li>Make a die component</li>
+                <li>Have that component show a number</li>
+                <li>When you click a button randomly change that number</li>
+                <li>Instead of showing the number show an image.</li>
+            </ul>
         </div>
     )
 }
