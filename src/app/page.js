@@ -35,7 +35,24 @@ export default function Home() {
                 add.
             </p>
 
-            <Link href="/rules" className="text-3xl">
+            <p>
+                I am not sure why but I still keep going back to thinking about
+                how to style custome react components. It seems like I might
+                have to wrap everything in divs.
+            </p>
+
+            <p>
+                Here is an idea. I should make a thought component that takes as
+                the inside of the tag the thought and as a parameter it takes a
+                title and a rating. That is a simple way for me to review what I
+                have learned in React.
+            </p>
+
+            <p>Question: Would it be a good idea to install Faker?</p>
+
+            <p>Remember to keep reading the docs.</p>
+
+            <Link href="/rules" className="text-3xl bg-green-500 rounded-md">
                 Rules
             </Link>
         </main>
