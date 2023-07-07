@@ -1,5 +1,7 @@
+import Image from 'next/image'
 import Die from '../../components/Die' // import the Die component
 import Thought from '../../components/Thought'
+import Task from '../../components/Task'
 
 export default function Notes() {
     return (
@@ -73,6 +75,8 @@ export default function Notes() {
                 to the project.
             </p>
             <p>I want to make my coding experience fun.</p>
+            <Task>Make the task component</Task>
+            <Image src="/dummy_600x400.png" width={600} height={400} />
         </div>
     )
 }
