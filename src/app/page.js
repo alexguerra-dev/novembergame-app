@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+import Die from '../components/Die'
+
 export default function Home() {
     return (
         <main>
@@ -32,6 +34,14 @@ export default function Home() {
             </div>
             <div className="m-5 bg-gray-400">
                 <p>Here are some dice to play with</p>
+
+                <Die />
+                <Die />
+                <Die />
+                <Die />
+                <Die />
+
+                <p>Currently they don't do very much yet.</p>
             </div>
             <p>
                 What is the best way to style a React component? I feel like

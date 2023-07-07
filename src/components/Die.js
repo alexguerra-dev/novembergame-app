@@ -1,8 +1,7 @@
 export default function Die() {
     return (
-        <div className="bg-slate-300 rounded-3xl">
-            <h1 className="text-3xl">Die</h1>
-            <p>4</p>
+        <div className="bg-white rounded-xl w-20 h-20 m-8">
+            <p className="text-center">4</p>
         </div>
     )
 }
