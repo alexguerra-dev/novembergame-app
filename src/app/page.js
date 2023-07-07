@@ -9,6 +9,16 @@ export default function Home() {
                 <p className="p-4">History</p>
             </Link>
 
+            <Link href="/about" className="">
+                <p className="p-4 bg-blue-400 text-red-600 w-7">About</p>
+            </Link>
+
+            <Link href="/games">Game</Link>
+
+            <Link href="/notes">Notes</Link>
+            <Link href="/rules">Rules</Link>
+            <Link href="/resume">Resume</Link>
+
             <p>
                 What is the best way to style a React component? I feel like
                 there might be multiple diffentt ways to try and style them. I
