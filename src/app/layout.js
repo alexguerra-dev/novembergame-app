@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className="h-screen bg-gradient-to-r from-violet-600 to-indigo-600">
-                <div className="flex flex-col w-full">
+                <div className="flex flex-col">
                     <header className=" bg-opacity-50 bg-slate-700 pb-2 mb-8">
                         <Link href="/">
                             <h2 className="text-4xl text-white">

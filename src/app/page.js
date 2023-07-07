@@ -73,6 +73,22 @@ export default function Home() {
             <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                 Tailwind Snippets
             </button>
+            <iframe
+                src="https://open.spotify.com/embed/track/3GgvAt2Cyp7GRhYy9Luus1?utm_source=generator"
+                width="100%"
+                height="152"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+            ></iframe>
+            <iframe
+                src="https://open.spotify.com/embed/track/53ygARQf1f30Z0EmXPHWGT?utm_source=generator"
+                width="100%"
+                height="352"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+            ></iframe>
         </main>
     )
 }
