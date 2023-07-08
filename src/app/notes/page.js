@@ -10,6 +10,16 @@ export default function Notes() {
             <p>Write more notes.</p>
             <h2>Things I would like to do with VSCode</h2>
             <ul>
+                <p>
+                    https://starship.rs/ This starship thing looks interesting.
+                </p>
+
+                <p>
+                    I think I am getting a little better at coming back to the
+                    page. It is really hard for me. I am going to learn how to
+                    manage it better.
+                </p>
+
                 <li>Make a super clean and simple view for coding.</li>
                 <li>Learn to use git inside the app.</li>
                 <li>
@@ -25,6 +35,10 @@ export default function Notes() {
                     mistakes, you will learn." I think that is a good motto for
                     this project.
                 </p>
+                <p>
+                    I am excited. I think I need a hot key for wrapping things
+                    in Emmet.
+                </p>
             </ul>
             <p>This is where I am to write notes.</p>
             <p>
@@ -39,11 +53,14 @@ export default function Notes() {
                 components for this live development style. I want a component
                 for different fleeting things.
             </p>
+            <h2 className="text-lg">Component Ideas</h2>
             <ul>
                 <li>Currently listing to</li>
                 <li>Idea</li>
                 <li>Goal</li>
                 <li>Rule</li>
+                <li>Want</li>
+                <li>Need</li>
             </ul>
             <Thought title="The first thought">
                 <p>
