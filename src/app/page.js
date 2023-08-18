@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import Die from '../components/Die'
+import Die from './components/Die'
 
 export default function Home() {
     return (

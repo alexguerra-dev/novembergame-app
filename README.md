@@ -86,3 +86,14 @@ Think about how the game is going to be played.
 - Have fun
 
 Setup git flow
+https://starship.rs/
+
+Try and make the thing fun to play.
+
+## Resources
+
+https://github.com/Softcatala/ca-text-corpus
+https://configure.zsa.io/train
+https://www.youtube.com/watch?v=8aGhZQkoFbQ (How to use the ZSA Moonlander keyboard)
+
+> I can think of so many things I want to do. I need to focus on one thing at a time. I need to make a list of things I want to do. I need to make a list of things I need to do. I need to make a list of things I have done. I need to make a list of things I am doing. I need to make a list of things I am not doing. I need to make a list of things I am not going to do. I need to make a list of things I am not going to do right now. I need to make a list of things I am not going to do right now but I might do later. I need to make a list of things I am not going to do right now but I might do later if I have time. I need to make a list of things I am not going to do right now but I might do later if I have time and I feel like it. I need to make a list of things I am not going to do right now but I might do later if I have time and I feel like it and I am not doing something else. I need to make a list of things I am not going to do right now but I might do later if I have time and I feel like it and I am not doing something else that is more important. I need to make a list of things I am not going to do right now but I might do later if I have time and I feel like it and I am not doing something else that is more important and I am not doing something else t...

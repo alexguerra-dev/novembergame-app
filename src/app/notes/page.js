@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import Die from '../../components/Die' // import the Die component
-import Thought from '../../components/Thought'
-import Task from '../../components/Task'
+import Die from '../components/Die' // import the Die component
+import Thought from '../components/Thought'
+import Task from '../components/Task'
 
 export default function Notes() {
     return (
@@ -35,6 +35,8 @@ export default function Notes() {
                     mistakes, you will learn." I think that is a good motto for
                     this project.
                 </p>
+                <p>Make different motto components that look good.</p>
+                <p>I would think</p>
                 <p>
                     I am excited. I think I need a hot key for wrapping things
                     in Emmet.
