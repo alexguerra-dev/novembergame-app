@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Die = ({ value }) => {
+const Die = ({ value, canRoll, onClick }) => {
+    const bgColor = canRoll ? 'bg-white' : 'bg-red-500'
     const dots = {
         1: 'center',
         2: 'top-right bottom-left',
@@ -11,9 +12,16 @@ const Die = ({ value }) => {
     }
 
     return (
-        <div className="die flex items-center justify-center w-16 h-16 border border-black rounded-md">
+        <div
+            className={`${bgColor} die flex items-center justify-center w-16 h-16 border border-black rounded-md`}
+            onClick={onClick}
+            disabled={!canRoll}
+        >
             {dots[value]?.includes('top-left') && (
-                <span className="dot absolute top-2 left-2" />
+                <span
+                    className="dot absolute top-2 left-2"
+                    disabled={!canRoll}
+                />
             )}
             {dots[value]?.includes('top-right') && (
                 <span className="dot absolute top-2 right-2" />
