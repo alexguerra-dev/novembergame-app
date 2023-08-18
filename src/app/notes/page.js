@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import Die from '../components/Die' // import the Die component
-import Thought from '../components/Thought'
-import Task from '../components/Task'
+import Die from '../../components/Die' // import the Die component
+import Thought from '../../components/Thought'
+import Task from '../../components/Task'
 
 export default function Notes() {
     return (

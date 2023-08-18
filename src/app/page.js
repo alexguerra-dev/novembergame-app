@@ -1,8 +1,19 @@
+'use client'
+
+import { useState } from 'react'
 import Link from 'next/link'
 
-import Die from './components/Die'
+import Die from '../components/Die'
 
-export default function Home() {
+export default function Home({ children }) {
+    const [diceValues, setDiceValues] = useState([1, 1, 1, 1, 1, 1])
+    const rollDice = () => {
+        const newDiceValues = diceValues.map(
+            () => Math.floor(Math.random() * 6) + 1,
+        )
+        setDiceValues(newDiceValues)
+    }
+
     return (
         <main>
             <p className="text-white text-4xl text-center">
@@ -35,13 +46,12 @@ export default function Home() {
             <div className="m-5 bg-gray-400">
                 <p>Here are some dice to play with</p>
 
-                <Die />
-                <Die />
-                <Die />
-                <Die />
-                <Die />
-
-                <p>Currently they don't do very much yet.</p>
+                {diceValues.map((value, index) => (
+                    <div>
+                        <Die value={value} key={index} />
+                    </div>
+                ))}
+                <button onClick={rollDice}>Roll Dice</button>
             </div>
             <p>
                 What is the best way to style a React component? I feel like
@@ -89,6 +99,7 @@ export default function Home() {
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
             ></iframe>
+            {children}
         </main>
     )
 }
